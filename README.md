@@ -38,7 +38,7 @@ This repository documents my journey in mastering **Data Structures and Algorith
 
 ### 🧠 Engineering Concepts
 I believe in understanding the core logic rather than memorizing code. Check out my conceptual notes:
-- [**Hash Table Logic & Real World Analogies**](./Concepts/Hash-Table-Logic.md) (Why is it O(1)?)
+- [**Hash Table Logic & Real World Analogies**](./Concepts/Hash_tables.md) (Why is it O(1)?)
 
 ---
 
@@ -72,7 +72,7 @@ Bu repo, **Veri Yapıları ve Algoritmalar (DSA)** konusundaki yetkinliğimi ve 
 
 ### 🧠 Mühendislik Kavramları ve Notlar
 Kodu ezberlemek yerine temel mantığı kavramayı hedefliyorum. Kavramsal notlarım:
-- [**Hash Mantığı & Gerçek Hayat Analojileri**](./Concepts/Hash-Table-Logic.md) (Neden O(1)?)
+- [**Hash Mantığı & Gerçek Hayat Analojileri**](./Concepts/Hash_tables.md) (Neden O(1)?)
 
 ---
 <div align="center">
