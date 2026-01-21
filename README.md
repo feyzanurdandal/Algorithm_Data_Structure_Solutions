@@ -36,6 +36,7 @@ This repository documents my journey in mastering **Data Structures and Algorith
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./ArraysAndHashing/1-Two_Sum.py) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./ArraysAndHashing/49-Group_Anagrams.py) |
 
 ### 🧠 Engineering Concepts
 I believe in understanding the core logic rather than memorizing code. Check out my conceptual notes:
@@ -71,6 +72,7 @@ Bu repo, **Veri Yapıları ve Algoritmalar (DSA)** konusundaki yetkinliğimi ve 
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./ArraysAndHashing/1-Two_Sum.py) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./ArraysAndHashing/49-Group_Anagrams.py) |
 
 ### 🧠 Mühendislik Kavramları ve Notlar
 Kodu ezberlemek yerine temel mantığı kavramayı hedefliyorum. Kavramsal notlarım:
