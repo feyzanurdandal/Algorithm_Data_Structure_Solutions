@@ -74,3 +74,19 @@ Hash mantığında ise **kıyaslama yoktur, adrese gitme vardır.**
 - Eğer bir şeyin **var olup olmadığını** kontrol edeceksen (`set`).
 - Eğer bir şeyin **kaç tane olduğunu (frekansını)** sayacaksan (`dict` / Hash Map).
 - Eğer bir veriye bir **anahtar (key)** ile anında ulaşmak istiyorsan.
+
+### "Her Yerde Hash Map Kullansam Olur mu?"
+Kısa cevap: Genellikle evet, ama bazı bedelleri var. Yazılım dünyasında her şey bir takas (trade-off) üzerinedir.
+**1. Neden her yerde kullanmak isteyebilirsin? (AVANTAJLARI)**
+- İnanılmaz Hız: Bir milyar veri içinde bile aradığın şeyi "tak" diye bulmanı sağlar. 
+- Zaman karmaşıklığı $O(1)$'dir.
+- Esneklik: Sadece sayıları değil; isimleri, objeleri, karmaşık verileri bile "anahtar" (key) olarak kullanabilirsin.
+**2. Neden her yerde kullanamayız? (DEZAVANTAJLARI)**
+- Bellek (RAM) Canavarıdır: Hash Map, hızı karşılığında bellekten yer kaplar. Eğer telefonunuzun veya sunucunuzun RAM'i çok azsa, her şeyi Hash Map'e atmak sistemi yavaşlatabilir veya çökertebilir.
+- Sıralama Kaybolur: Hash Map'ler elemanları senin koyduğun sırayla tutmaz. Eğer "alfabetik sıralı olsun" veya "en küçükten büyüğe dizilsin" dersen Hash Map tek başına yetmez.
+- Küçük Verilerde Gereksizdir: Elinde sadece 5-10 tane veri varsa, Hash Map kurmak için harcanan çaba, basit bir döngüden (Brute Force) daha uzun sürebilir.
+### Hash Map'i Ne Zaman Kullanmalısın? (Senior İpucu)
+Eğer bir problemde şu cümleleri kuruyorsan, aklına hemen Hash Map / Set gelmeli:
+- "Ben bu elemanı daha önce gördüm mü?" (Contains Duplicate gibi)
+- "Bu elemanın karşılık geldiği değer (indeks, adet, fiyat) neydi?" (Two Sum veya Anagram gibi)
+- "Aradığım şey listede var mı?" (Hızlı arama gerektiren durumlar)
