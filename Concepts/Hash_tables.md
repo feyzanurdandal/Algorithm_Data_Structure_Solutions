@@ -77,11 +77,11 @@ Hash mantığında ise **kıyaslama yoktur, adrese gitme vardır.**
 
 ### "Her Yerde Hash Map Kullansam Olur mu?"
 Kısa cevap: Genellikle evet, ama bazı bedelleri var. Yazılım dünyasında her şey bir takas (trade-off) üzerinedir.
-**1. Neden her yerde kullanmak isteyebilirsin? (AVANTAJLARI)**
+- **1. Neden her yerde kullanmak isteyebilirsin? (AVANTAJLARI)**
 - İnanılmaz Hız: Bir milyar veri içinde bile aradığın şeyi "tak" diye bulmanı sağlar. 
 - Zaman karmaşıklığı $O(1)$'dir.
 - Esneklik: Sadece sayıları değil; isimleri, objeleri, karmaşık verileri bile "anahtar" (key) olarak kullanabilirsin.
-**2. Neden her yerde kullanamayız? (DEZAVANTAJLARI)**
+- **2. Neden her yerde kullanamayız? (DEZAVANTAJLARI)**
 - Bellek (RAM) Canavarıdır: Hash Map, hızı karşılığında bellekten yer kaplar. Eğer telefonunuzun veya sunucunuzun RAM'i çok azsa, her şeyi Hash Map'e atmak sistemi yavaşlatabilir veya çökertebilir.
 - Sıralama Kaybolur: Hash Map'ler elemanları senin koyduğun sırayla tutmaz. Eğer "alfabetik sıralı olsun" veya "en küçükten büyüğe dizilsin" dersen Hash Map tek başına yetmez.
 - Küçük Verilerde Gereksizdir: Elinde sadece 5-10 tane veri varsa, Hash Map kurmak için harcanan çaba, basit bir döngüden (Brute Force) daha uzun sürebilir.

@@ -31,10 +31,11 @@ This repository documents my journey in mastering **Data Structures and Algorith
 
 ### 📚 Solved Problems Log
 
-| # | Problem | Solution | Difficulty | Topic | Complexity (Time/Space) |
+| # | Problem | Solution |
 |---|---|---|---|---|---|
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) | 🟢 Easy | Array / Hash Set | $O(n)$ / $O(n)$ |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) | 🟢 Easy | String / Hash Map | $O(n)$ / $O(1)$ |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./ArraysAndHashing/1-Two_Sum.py) |
 
 ### 🧠 Engineering Concepts
 I believe in understanding the core logic rather than memorizing code. Check out my conceptual notes:
@@ -65,10 +66,11 @@ Bu repo, **Veri Yapıları ve Algoritmalar (DSA)** konusundaki yetkinliğimi ve 
 
 ### 📚 Çözülen Problemler Listesi
 
-| # | Problem | Çözüm | Zorluk | Konu | Karmaşıklık (T/S) |
+| # | Problem | Solution |
 |---|---|---|---|---|---|
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) | 🟢 Kolay | Array / Hash Set | $O(n)$ / $O(n)$ |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) | 🟢 Kolay | String / Hash Map | $O(n)$ / $O(1)$ |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./ArraysAndHashing/1-Two_Sum.py) |
 
 ### 🧠 Mühendislik Kavramları ve Notlar
 Kodu ezberlemek yerine temel mantığı kavramayı hedefliyorum. Kavramsal notlarım:
