@@ -32,7 +32,7 @@ This repository documents my journey in mastering **Data Structures and Algorith
 ### 📚 Solved Problems Log
 
 | # | Problem | Solution |
-|---|---|---|---|---|---|
+|---|---|---|
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./ArraysAndHashing/1-Two_Sum.py) |
@@ -66,7 +66,7 @@ Bu repo, **Veri Yapıları ve Algoritmalar (DSA)** konusundaki yetkinliğimi ve 
 
 ### 📚 Çözülen Problemler Listesi
 
-| # | Problem | Solution |
+| # | Problem | Çözüm |
 |---|---|---|
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) |
