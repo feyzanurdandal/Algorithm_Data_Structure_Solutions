@@ -115,3 +115,37 @@ Eğer "10" sayısı da 3 kere geçtiyse, o da 3 numaralı çekmeceye gidiyor.
 Sonra en büyük numaralı çekmeceden (yani en çok tekrar edenden) başlayarak çekmeceleri boşaltıyorsun.
 Maliyet: $O(n)$ (Çünkü hiç sıralama yapmadın, sadece çekmecelere koyup aldın).
 """
+
+"""
+Bucket Sort (Kova Sıralaması), her zaman kullanılan "genel amaçlı" bir algoritma (QuickSort veya MergeSort gibi) değildir.
+O, daha çok belirli şartlar sağlandığında ortaya çıkan bir "özel kuvvetler" algoritmasıdır.
+Bir kıdemli mühendis gözüyle, Bucket Sort'u şu 4 ana durumda kutusundan çıkarırsın:
+
+ **1. Verilerin Aralığı (Range) Belirli ve Sınırlıysa
+ Bucket Sort'un en büyük gücü, verilerin hangi sayılar arasında olduğunu bildiğimizde ortaya çıkar.
+ Örnek: Bir sınavdaki 1 milyon öğrencinin notlarını (0-100 arası) sıralayacaksın.
+ Neden?: Elimizde sadece 101 tane "kova" (0, 1, 2... 100) olması yeterlidir.
+ 1 milyon veriyi bu 101 kovaya şak diye dağıtır, sonra sırayla toplarsın. 
+ $O(n \log n)$ yerine $O(n)$ hızında biter.
+
+ **2. Veriler "Düzenli Dağılıyorsa" (Uniform Distribution)
+ Eğer verilerin belirli bir aralığa (örneğin 0 ile 1 arasına) dengeli bir şekilde yayıldığını biliyorsan Bucket Sort harikadır.  
+ Örnek: 0.12, 0.45, 0.88 gibi ondalıklı sayıları sıralamak.
+ Neden?: Kovaları [0-0.1], [0.1-0.2]... şeklinde bölersen, her kovaya yaklaşık aynı sayıda eleman düşer.
+ Bu da algoritmanın ışık hızında çalışmasını sağlar.
+
+ **3. Frekans Analizi Yapılıyorsa (LeetCode Favorisi)
+ Çözdüğümüz "Top K Frequent Elements" sorusu tam olarak buydu.
+ Durum: Bir şeyin kaç kere tekrar ettiğini (frekansını) indeks olarak kullanmak.
+ Siber Güvenlik Örneği: Bir sunucuya gelen IP adreslerini "istek sayısına" göre sıralayıp 
+ potansiyel bir DDOS saldırısını tespit etmek. İstek sayısı en fazla olan IP'yi bulmak için Bucket Sort en hızlı yoldur.
+
+ **4. Bellek (RAM) Sorunun Yoksa Ama Zamanın Kısıtlıysa
+ Bucket Sort, hızı karşılığında bellekten yer ister (çünkü o kovaları/çekmeceleri bellekte oluşturman gerekir).
+ Ticaret (Trade-off): "Benim RAM'im bol ama kullanıcımı 1 saniye bile bekletemem" dediğin her an bu algoritma masadadır.
+ ⚠️ Bucket Sort Ne Zaman Kullanılmaz? (Senior Uyarısı)
+ Eğer verilerin "dağınık ve dengesizse" (Sparse Data) bu algoritma bir kabusa dönüşür.
+ Kötü Senaryo: Elinde sadece 2 tane sayı var: [1, 1.000.000.000].
+ Sorun: Bu iki sayıyı Bucket Sort ile sıralamaya çalışırsan, bilgisayar 1 milyar tane boş kova oluşturmaya çalışabilir ve sistem çöker.
+ Sonuç: Aradaki fark (Gap) çok büyükse, asla Bucket Sort kullanma; git sort() kullan.
+"""

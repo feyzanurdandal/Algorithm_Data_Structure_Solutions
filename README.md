@@ -31,13 +31,20 @@ This repository documents my journey in mastering **Data Structures and Algorith
 
 ### 📚 Solved Problems Log
 
-| # | Problem | Solution |
-|---|---|---|
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./ArraysAndHashing/1-Two_Sum.py) |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./ArraysAndHashing/49-Group_Anagrams.py) |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python](./ArraysAndHashing/347-TopKFrequentElements.py) |
+###  Arrays & Hashing
+| # | Problem | Difficulty | Solution |
+| :--- | :--- | :---: | :--- |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Python ](./ArraysAndHashing/217-Contains-Duplicate.py) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Python ](./ArraysAndHashing/242-Valid-Anagram.py) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Python ](./ArraysAndHashing/1-Two_Sum.py) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Python ](./ArraysAndHashing/49-Group_Anagrams.py) |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Python ](./ArraysAndHashing/347-TopKFrequentElements.py) |
+
+###  Two Pointers
+| # | Problem | Difficulty | Solution |
+| :--- | :--- | :---: | :--- |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Python ](./TwoPointers/125-Valid_Palindrome.py) |
+
 
 ### 🧠 Engineering Concepts
 I believe in understanding the core logic rather than memorizing code. Check out my conceptual notes:
@@ -68,12 +75,19 @@ Bu repo, **Veri Yapıları ve Algoritmalar (DSA)** konusundaki yetkinliğimi ve 
 
 ### 📚 Çözülen Problemler Listesi
 
-| # | Problem | Çözüm |
-|---|---|---|
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./ArraysAndHashing/217-Contains-Duplicate.py) |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./ArraysAndHashing/242-Valid-Anagram.py) |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./ArraysAndHashing/1-Two_Sum.py) |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./ArraysAndHashing/49-Group_Anagrams.py) |
+###  Arrays & Hashing
+| # | Problem | Difficulty | Solution |
+| :--- | :--- | :---: | :--- |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Python ](./ArraysAndHashing/217-Contains-Duplicate.py) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Python ](./ArraysAndHashing/242-Valid-Anagram.py) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Python ](./ArraysAndHashing/1-Two_Sum.py) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Python ](./ArraysAndHashing/49-Group_Anagrams.py) |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Python ](./ArraysAndHashing/347-TopKFrequentElements.py) |
+
+###  Two Pointers
+| # | Problem | Difficulty | Solution |
+| :--- | :--- | :---: | :--- |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Python ](./TwoPointers/125-Valid_Palindrome.py) |
 
 ### 🧠 Mühendislik Kavramları ve Notlar
 Kodu ezberlemek yerine temel mantığı kavramayı hedefliyorum. Kavramsal notlarım:
